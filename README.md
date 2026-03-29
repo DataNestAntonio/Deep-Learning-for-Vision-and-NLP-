@@ -1,2 +1,2 @@
-# Deep-Learning-for-Vision-and-NLP-
-The Chessman Image Dataset is a curated computer vision dataset created by user niteshfre on Kaggle. It is specifically designed for testing image classification, recognition, and clustering algorithms on objects with intricate structural variations.
+## Project overview ## 
+This project uses a small chess image dataset with six classes (Bishop, King, Knight, Pawn, Queen, Rook) and compares two models: a baseline CNN trained from scratch and a ResNet18 model with ImageNet‑pretrained weights. Both models are implemented in PyTorch, trained with Adam and cross‑entropy loss, and evaluated using accuracy, loss curves over 10 epochs and a confusion matrix on the validation set.
